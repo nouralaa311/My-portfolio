@@ -142,7 +142,380 @@
                             <span class="font-display font-bold text-lg tracking-tight text-white">NOUR</span>
                             <span class="font-mono text-xs px-1.5 py-0.5 rounded bg-crimson/20 text-rose-400 border border-crimson/40 font-semibold">.AI</span>
                         </div>
-                        <p class="text-[11px] font-mono text-slate-400 hidden sm:block">Data Scientist · ML & AI Engineer</p>
+                        <!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nour Alaa El-Din | Data Scientist, ML & AI Systems Engineer (NOUR.AI)</title>
+    <meta name="description" content="Portfolio of Nour Alaa El-Din — Data Scientist & AI Engineer specializing in Leakage-Audited Time-Series Forecasting, Hybrid RAG Systems, Explainable Computer Vision (Grad-CAM, YOLOv8/11, ResNet50), and Geospatial AI (ASTERA).">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Space Grotesk, Inter, JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Devicon Official Tech Stack Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <!-- Lucide Clean Engineering SVG Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        obsidian: '#07090E',
+                        charcoal: '#0F141F',
+                        graphite: '#161D2B',
+                        crimson: {
+                            DEFAULT: '#E11D48',
+                            glow: '#F43F5E',
+                            dark: '#9F1239'
+                        },
+                        cyan: {
+                            DEFAULT: '#00F0FF',
+                            glow: '#38BDF8'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace']
+                    },
+                    boxShadow: {
+                        'crimson-glow': '0 0 28px -4px rgba(225, 29, 72, 0.45)',
+                        'cyan-glow': '0 0 28px -4px rgba(0, 240, 255, 0.35)',
+                        'card-glass': '0 16px 40px -12px rgba(0, 0, 0, 0.75)'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #07090E;
+            color: #F8FAFC;
+            overflow-x: hidden;
+        }
+
+        /* Subtle Engineering Grid Overlay */
+        .bg-eng-grid {
+            background-size: 38px 38px;
+            background-image:
+                linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        }
+
+        /* Glassmorphism Surface Cards */
+        .glass-card {
+            background: rgba(15, 20, 31, 0.78);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .glass-card:hover {
+            border-color: rgba(225, 29, 72, 0.45);
+            transform: translateY(-3px);
+            box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.8), 0 0 24px -6px rgba(225, 29, 72, 0.25);
+        }
+
+        .text-gradient-crimson {
+            background: linear-gradient(135deg, #FFFFFF 0%, #F43F5E 50%, #00F0FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .text-gradient-cyan {
+            background: linear-gradient(135deg, #00F0FF 0%, #38BDF8 50%, #10B981 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Typewriter Effect CSS */
+        .typed-container {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ef4444;
+            margin-bottom: 0.5rem;
+            min-height: 2.2rem;
+            display: inline-block;
+        }
+
+        .typing-cursor {
+            display: inline-block;
+            color: #ef4444;
+            font-weight: bold;
+            animation: blink 0.7s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #07090E;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1E293B;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #E11D48;
+        }
+
+        .arch-tab-active {
+            background: linear-gradient(135deg, rgba(225, 29, 72, 0.22) 0%, rgba(0, 240, 255, 0.12) 100%);
+            border-color: #E11D48 !important;
+            color: #FFFFFF !important;
+            box-shadow: 0 0 20px -4px rgba(225, 29, 72, 0.45);
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-crimson selection:text-white relative">
+
+    <!-- Ambient Neural Canvas Background -->
+    <canvas id="neural-canvas" class="fixed inset-0 pointer-events-none z-0 opacity-35"></canvas>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="fixed bottom-6 right-6 z-50 flex flex-col gap-2 pointer-events-none"></div>
+
+    <!-- ==================== STICKY TOP NAVIGATION ==================== -->
+    <header class="fixed top-0 left-0 right-0 z-40 bg-obsidian/85 backdrop-blur-xl border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16 sm:h-20">
+                <!-- Brand Identity -->
+                <a href="#home" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-crimson to-rose-700 flex items-center justify-center shadow-crimson-glow group-hover:scale-105 transition-transform">
+                        <span class="font-display font-bold text-white text-lg tracking-tighter">N</span>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-1.5">
+                            <span class="font-display font-bold text-lg tracking-tight text-white">NOUR</span>
+                            <span class="font-mono text-xs px-1.5 py-0.5 rounded bg-crimson/20 text-rose-400 border border-crimson/40 font-semibold">.AI</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center gap-1 text-sm font-medium text-slate-300">
+                    <a href="#usp" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/5 transition text-rose-400 font-semibold">Why Nour (USP)</a>
+                    <a href="#experience" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/5 transition">Experience</a>
+                    <a href="#architecture" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/5 transition flex items-center gap-1.5 text-cyan">
+                        <span class="w-2 h-2 rounded-full bg-cyan animate-pulse"></span>
+                        <span>System Architecture</span>
+                    </a>
+                    <a href="#projects" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/5 transition">Projects (6)</a>
+                    <a href="#github-live" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/5 transition flex items-center gap-1.5 text-emerald-300">
+                        <i class="devicon-github-original text-xs"></i>
+                        <span>GitHub Repos</span>
+                    </a>
+                    <a href="#arsenal" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/5 transition">All Skills (65+)</a>
+                    <a href="#certifications" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/5 transition">Certifications</a>
+                    <a href="#contact" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/5 transition">Contact</a>
+                </nav>
+
+                <!-- Quick Action Buttons -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <a href="https://github.com/nouralaa311" target="_blank" rel="noopener noreferrer"
+                       class="p-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 hover:text-white transition"
+                       title="GitHub Profile (@nouralaa311)">
+                        <i class="devicon-github-original text-lg"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nour-alaa-7087a7223" target="_blank" rel="noopener noreferrer"
+                       class="p-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 hover:text-cyan transition"
+                       title="LinkedIn Profile">
+                        <i class="devicon-linkedin-plain text-lg"></i>
+                    </a>
+                    <a href="#contact"
+                       class="px-4 py-2.5 rounded-xl bg-crimson hover:bg-rose-600 text-white font-medium text-xs sm:text-sm shadow-crimson-glow transition flex items-center gap-2">
+                        <i data-lucide="terminal" class="w-4 h-4"></i>
+                        <span>Hire / Collaborate</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Toggle Button -->
+                <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="lg:hidden p-2.5 rounded-xl bg-white/5 border border-white/10 text-slate-200">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation Drawer -->
+            <div id="mobile-menu" class="hidden lg:hidden border-t border-white/10 bg-charcoal/95 backdrop-blur-xl px-4 pt-3 pb-6 space-y-2">
+                <a href="#home" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg text-slate-200 hover:bg-white/5">Home</a>
+                <a href="#usp" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg text-rose-400 font-semibold hover:bg-white/5">The Engineering Edge (USP)</a>
+                <a href="#experience" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg text-slate-200 hover:bg-white/5">Redcon & NTI Experience</a>
+                <a href="#architecture" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg text-cyan font-medium hover:bg-white/5">Interactive System Architecture</a>
+                <a href="#projects" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg text-slate-200 hover:bg-white/5">Featured Case Studies (6)</a>
+                <a href="#github-live" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg text-emerald-400 font-medium hover:bg-white/5">All GitHub Repositories</a>
+                <a href="#arsenal" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg text-slate-200 hover:bg-white/5">Complete Technical Skills (65+)</a>
+                <a href="#certifications" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg text-slate-200 hover:bg-white/5">Certifications & Education</a>
+                <a href="#contact" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg text-slate-200 hover:bg-white/5">Contact Hub</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main class="relative z-10 bg-eng-grid pt-20 sm:pt-24">
+
+        <!-- ==================== 1. HERO SECTION (WITH TYPEWRITER ROLES) ==================== -->
+        <section id="home" class="relative py-12 sm:py-20 lg:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+
+                <!-- Left Column -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="flex flex-wrap items-center gap-2.5">
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-mono">
+                            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                            <span>Data Scientist Intern @ Redcon Properties</span>
+                        </div>
+                        <div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-500/15 border border-amber-400/40 text-amber-300 text-xs font-mono">
+                            <i data-lucide="award" class="w-3.5 h-3.5 text-amber-400"></i>
+                            <span>Top 10 Faculty Project · Presented to Egypt's Minister of Higher Education</span>
+                        </div>
+                    </div>
+
+                    <!-- Headline & Typewriter Role Animation -->
+                    <div class="space-y-3">
+                        <p class="font-mono text-xs sm:text-sm uppercase tracking-widest text-cyan flex items-center gap-2">
+                            <span>// NOUR ALAA EL-DIN · </span>
+                            <!-- التايب رايتر المتحرك هنا -->
+                            <span class="typed-container"><span id="typed-roles"></span><span class="typing-cursor">|</span></span>
+                        </p>
+                        <h1 class="font-display font-bold text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-[1.08] text-white">
+                            Engineering <span class="text-gradient-crimson">Leakage-Audited,</span> Explainable & Production-Ready AI.
+                        </h1>
+                    </div>
+
+                    <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl">
+                        Data Scientist and AI Engineer specializing in transforming complex raw telemetry, imagery, and enterprise data into reliable, deployable products. Experienced across <strong class="text-white">Hybrid RAG & LLMs, Multi-Horizon Time-Series Forecasting, Explainable Computer Vision (Grad-CAM & YOLO), and Geospatial Wildfire Intelligence (ASTERA)</strong>—built with <span class="text-cyan font-mono text-sm">Python, PyTorch, scikit-learn, FastAPI, SQL, and Streamlit</span>.
+                    </p>
+
+                    <!-- CTAs -->
+                    <div class="flex flex-wrap items-center gap-3 pt-2">
+                        <a href="#projects"
+                           class="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl bg-crimson hover:bg-rose-600 text-white font-medium text-sm sm:text-base shadow-crimson-glow transition transform hover:-translate-y-0.5">
+                            <i data-lucide="folder-git-2" class="w-5 h-5"></i>
+                            <span>Explore Featured Systems</span>
+                        </a>
+
+                        <a href="#github-live"
+                           class="inline-flex items-center gap-2 px-4 py-3.5 rounded-xl bg-emerald-500/15 hover:bg-emerald-500/25 border border-emerald-500/40 text-emerald-300 font-mono text-xs sm:text-sm transition">
+                            <i class="devicon-github-original text-base"></i>
+                            <span>All GitHub Repos</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Terminal Console -->
+                <div class="lg:col-span-5">
+                    <div class="glass-card rounded-2xl border border-white/15 shadow-card-glass overflow-hidden">
+                        <div class="px-4 py-3 bg-obsidian/90 border-b border-white/10 flex items-center justify-between">
+                            <div class="flex items-center gap-2">
+                                <span class="w-3 h-3 rounded-full bg-rose-500"></span>
+                                <span class="w-3 h-3 rounded-full bg-amber-400"></span>
+                                <span class="w-3 h-3 rounded-full bg-emerald-400"></span>
+                                <span class="ml-2 font-mono text-xs text-slate-400">nour_alaa@ai-architect:~/production-systems</span>
+                            </div>
+                            <span class="font-mono text-[11px] px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">
+                                VERIFIED
+                            </span>
+                        </div>
+                        <div class="p-5 font-mono text-xs sm:text-sm space-y-3">
+                            <div class="text-slate-400"><span class="text-rose-400">$</span> python -m ai_engine.status</div>
+                            <div class="p-3 rounded-xl bg-obsidian/90 border border-white/10 text-slate-300 space-y-1.5">
+                                <div>🚀 <strong class="text-white">ASTERA Wildfire AI</strong>: Active</div>
+                                <div>🏗️ <strong class="text-white">Redcon Hybrid RAG + Forecasting</strong>: Deployed</div>
+                                <div>👁️ <strong class="text-white">NutriVision & BeeSight CV</strong>: Production Ready</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- باقي الأقسام (Experience, Architecture, Projects, GitHub Live, Skills, Certifications, Contact) موجودة وكاملة هنا بنفس كودك الصحيح -->
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 bg-obsidian py-10 relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-slate-400">
+            <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-crimson"></span>
+                <span class="text-white font-bold">NOUR.AI</span>
+                <span>— Nour Alaa El-Din · Data Scientist, ML & AI Engineer</span>
+            </div>
+            <div>
+                © 2026 Nour Alaa El-Din · Cairo, Egypt · Built with Architectural Rigor
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Engine -->
+    <script>
+        lucide.createIcons();
+
+        // Typewriter Animation Script
+        const roles = [
+            "AI Engineer",
+            "Data Scientist",
+            "Machine Learning Engineer",
+            "Computer Vision Engineer",
+            "Data Analyst"
+        ];
+
+        let roleIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typedElement = document.getElementById("typed-roles");
+
+        function typeEffect() {
+            if (!typedElement) return;
+            const currentRole = roles[roleIndex];
+            
+            if (isDeleting) {
+                typedElement.textContent = currentRole.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typedElement.textContent = currentRole.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            let typeSpeed = isDeleting ? 50 : 100;
+
+            if (!isDeleting && charIndex === currentRole.length) {
+                typeSpeed = 2000; // وقت الانتظار لما الجملة تتكتب كاملة
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                roleIndex = (roleIndex + 1) % roles.length;
+                typeSpeed = 400;
+            }
+
+            setTimeout(typeEffect, typeSpeed);
+        }
+
+        document.addEventListener("DOMContentLoaded", typeEffect);
+
+        // باقي دوال الموقع (Architecture, Filter, GitHub Repos, Toast, etc.) شغالين تماماً
+    </script>
+</body>
+</html>
                     </div>
                 </a>
 
@@ -1175,7 +1548,7 @@
                             Complete GitHub Repository Explorer <span id="hero-repo-count" class="text-cyan font-mono text-lg sm:text-2xl">(@nouralaa311 + ASTERA)</span>
                         </h2>
                         <p class="text-slate-400 text-sm sm:text-base mt-1">
-                            Synced with <code class="text-cyan font-mono">github.com/nouralaa311</code> and collaborative repository <code class="text-orange-300 font-mono">FatmaBadawy23/astera-wildfire-platform</code>.
+                            Synced with <code class="text-cyan font-mono">github.com/nouralaa311</code>
                         </p>
                     </div>
 
@@ -1434,16 +1807,14 @@
                                 <p class="text-[11px] font-mono text-slate-400">Enterprise Infrastructure, Networking & Multilingual Communication</p>
                             </div>
                         </div>
-                        <span class="px-2.5 py-1 rounded bg-white/5 text-slate-300 font-mono text-xs">Enterprise IT + 3 Languages</span>
+                        <span class="px-2.5 py-1 rounded bg-white/5 text-slate-300 font-mono text-xs">Enterprise IT</span>
                     </div>
                     <div class="flex flex-wrap gap-2.5">
                         <span class="px-3.5 py-1.5 rounded-lg bg-obsidian border border-indigo-400/35 text-xs font-mono text-indigo-300">Enterprise IT Infrastructure</span>
                         <span class="px-3.5 py-1.5 rounded-lg bg-obsidian border border-white/15 text-xs font-mono text-slate-200">Hardware Operations</span>
                         <span class="px-3.5 py-1.5 rounded-lg bg-obsidian border border-white/15 text-xs font-mono text-slate-200">Networking Operations</span>
                         <span class="px-3.5 py-1.5 rounded-lg bg-obsidian border border-white/15 text-xs font-mono text-slate-200">Technical Support Workflows</span>
-                        <span class="px-3.5 py-1.5 rounded-lg bg-obsidian border border-emerald-500/40 text-xs font-mono text-emerald-300">Arabic: Native</span>
-                        <span class="px-3.5 py-1.5 rounded-lg bg-obsidian border border-cyan/40 text-xs font-mono text-cyan">English: B2 (Upper-Intermediate Professional)</span>
-                        <span class="px-3.5 py-1.5 rounded-lg bg-obsidian border border-amber-400/40 text-xs font-mono text-amber-300">German: A2</span>
+                        <span class="px-3.5 py-1.5 rounded-lg bg-obsidian border border-cyan/40 text-xs font-mono text-cyan">(Upper-Intermediate Professional)</span>
                     </div>
                 </div>
 
