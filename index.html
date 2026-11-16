@@ -98,7 +98,6 @@
 
         /* Typewriter Effect CSS */
         .typed-container {
-            font-size: 1rem;
             font-weight: 700;
             color: #00F0FF;
             display: inline-block;
@@ -131,6 +130,7 @@
             background: #E11D48;
         }
 
+        /* Active Architecture Inspector Tab */
         .arch-tab-active {
             background: linear-gradient(135deg, rgba(225, 29, 72, 0.22) 0%, rgba(0, 240, 255, 0.12) 100%);
             border-color: #E11D48 !important;
@@ -161,6 +161,7 @@
                             <span class="font-display font-bold text-lg tracking-tight text-white">NOUR</span>
                             <span class="font-mono text-xs px-1.5 py-0.5 rounded bg-crimson/20 text-rose-400 border border-crimson/40 font-semibold">.AI</span>
                         </div>
+                        <p class="text-[11px] font-mono text-slate-400 hidden sm:block">Data Scientist · ML & AI Engineer</p>
                     </div>
                 </a>
 
@@ -229,8 +230,9 @@
         <section id="home" class="relative py-12 sm:py-20 lg:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
 
-                <!-- Left Column: Identity & Typewriter -->
+                <!-- Left Column: Identity, Value Proposition & Direct Repo Pills -->
                 <div class="lg:col-span-7 space-y-6">
+                    <!-- Status & Recognition Badges -->
                     <div class="flex flex-wrap items-center gap-2.5">
                         <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-mono">
                             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
@@ -253,11 +255,12 @@
                         </h1>
                     </div>
 
+                    <!-- Executive Summary -->
                     <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl">
                         Data Scientist and AI Engineer specializing in transforming complex raw telemetry, imagery, and enterprise data into reliable, deployable products. Experienced across <strong class="text-white">Hybrid RAG & LLMs, Multi-Horizon Time-Series Forecasting, Explainable Computer Vision (Grad-CAM & YOLO), and Geospatial Wildfire Intelligence (ASTERA)</strong>—built with <span class="text-cyan font-mono text-sm">Python, PyTorch, scikit-learn, FastAPI, SQL, and Streamlit</span>.
                     </p>
 
-                    <!-- Quick Jump Feature Pills -->
+                    <!-- Architectural Capability Highlights -->
                     <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-1">
                         <a href="#architecture" onclick="switchArch('astera')" class="glass-card p-3.5 rounded-xl border border-white/10 hover:border-orange-400/50 group">
                             <div class="flex items-center justify-between">
@@ -323,7 +326,7 @@
                         </button>
                     </div>
 
-                    <!-- Direct GitHub Quick Links -->
+                    <!-- Direct GitHub Project Quick-Jump Pills -->
                     <div class="pt-2">
                         <div class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
                             <i class="devicon-github-original text-cyan"></i>
@@ -372,10 +375,12 @@
                                 END-TO-END VERIFIED
                             </span>
                         </div>
+
                         <div class="p-5 sm:p-6 space-y-4 font-mono text-xs sm:text-sm">
                             <div class="text-slate-400">
                                 <span class="text-rose-400">$</span> cat engineering_philosophy.yaml
                             </div>
+
                             <div class="p-3.5 rounded-xl bg-obsidian/90 border border-white/10 space-y-2.5 text-xs">
                                 <div class="flex items-start justify-between gap-2">
                                     <span class="text-slate-400">Role:</span>
@@ -400,6 +405,7 @@
                                     <span>Production System Topology</span>
                                     <span class="text-cyan">6 Flagship Architectures</span>
                                 </div>
+
                                 <div class="p-3 rounded-xl bg-white/[0.03] border border-orange-400/30 flex items-center justify-between">
                                     <div>
                                         <span class="text-white font-semibold">ASTERA Wildfire Platform</span>
@@ -407,6 +413,7 @@
                                     </div>
                                     <span class="px-2 py-0.5 rounded bg-orange-500/20 text-orange-300 text-[10px]">Environmental AI</span>
                                 </div>
+
                                 <div class="p-3 rounded-xl bg-white/[0.03] border border-white/10 flex items-center justify-between">
                                     <div>
                                         <span class="text-white font-semibold">Redcon Hybrid RAG + Forecasting</span>
@@ -414,6 +421,22 @@
                                     </div>
                                     <span class="px-2 py-0.5 rounded bg-crimson/20 text-rose-300 text-[10px]">Enterprise AI</span>
                                 </div>
+
+                                <div class="p-3 rounded-xl bg-white/[0.03] border border-white/10 flex items-center justify-between">
+                                    <div>
+                                        <span class="text-white font-semibold">NutriVision & BeeSight CV</span>
+                                        <p class="text-[11px] text-slate-400">ResNet50 Grad-CAM · YOLOv8n/11m Video</p>
+                                    </div>
+                                    <span class="px-2 py-0.5 rounded bg-cyan/15 text-cyan text-[10px]">Vision + XAI</span>
+                                </div>
+                            </div>
+
+                            <div class="pt-1 flex items-center justify-between text-[11px] text-slate-400 border-t border-white/10">
+                                <span>Helwan National Univ. (Data Science)</span>
+                                <a href="#usp" class="text-rose-400 hover:underline flex items-center gap-1">
+                                    <span>Explore Engineering USP</span>
+                                    <i data-lucide="arrow-down-right" class="w-3.5 h-3.5"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -422,7 +445,7 @@
             </div>
         </section>
 
-        <!-- ==================== 2. THE ENGINEERING EDGE (USP) ==================== -->
+        <!-- ==================== 2. THE ENGINEERING EDGE (USP SECTION) ==================== -->
         <section id="usp" class="py-20 border-y border-white/10 bg-charcoal/50 relative">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-14">
@@ -455,6 +478,11 @@
                         <p class="text-slate-300 text-sm leading-relaxed mb-4">
                             Instead of relying on random train/test splits that inflate metrics through look-ahead bias, I engineer <strong class="text-white">publication-lag-aware data joins</strong>, strict <strong class="text-white">walk-forward temporal validation</strong>, causality testing, naive-baseline benchmarking, and statistical significance testing.
                         </p>
+                        <div class="flex flex-wrap gap-2 pt-2 border-t border-white/10 font-mono text-xs text-rose-300">
+                            <span class="px-2.5 py-1 rounded bg-obsidian">Walk-Forward Backtesting</span>
+                            <span class="px-2.5 py-1 rounded bg-obsidian">Lag-Aware Macroeconomic Joins</span>
+                            <span class="px-2.5 py-1 rounded bg-obsidian">Causality & Significance Tests</span>
+                        </div>
                     </div>
 
                     <!-- Pillar 2 -->
@@ -473,6 +501,11 @@
                         <p class="text-slate-300 text-sm leading-relaxed mb-4">
                             Rare cross-disciplinary versatility: building <strong class="text-white">Hybrid RAG & LLM engines</strong> (vector search + deterministic SQL), <strong class="text-white">Multi-Horizon Time-Series Forecasters</strong> (GRU, XGBoost, LightGBM, CatBoost), <strong class="text-white">Computer Vision pipelines</strong> (YOLOv8n/11m, ResNet50), and <strong class="text-white">Geospatial Wildfire Intelligence (ASTERA)</strong>.
                         </p>
+                        <div class="flex flex-wrap gap-2 pt-2 border-t border-white/10 font-mono text-xs text-cyan">
+                            <span class="px-2.5 py-1 rounded bg-obsidian">LLMs & Hybrid RAG</span>
+                            <span class="px-2.5 py-1 rounded bg-obsidian">Geospatial & Satellite Telemetry</span>
+                            <span class="px-2.5 py-1 rounded bg-obsidian">YOLOv8/11 & ResNet50</span>
+                        </div>
                     </div>
 
                     <!-- Pillar 3 -->
@@ -491,6 +524,11 @@
                         <p class="text-slate-300 text-sm leading-relaxed mb-4">
                             Stakeholders don't trust black boxes. In Computer Vision, I integrate <strong class="text-white">Grad-CAM spatial heatmaps</strong> and per-class error diagnostics to prove where the CNN looks. In LLM systems, I pair semantic retrieval with <strong class="text-white">deterministic SQL execution</strong> so metrics never hallucinate.
                         </p>
+                        <div class="flex flex-wrap gap-2 pt-2 border-t border-white/10 font-mono text-xs text-emerald-300">
+                            <span class="px-2.5 py-1 rounded bg-obsidian">Grad-CAM Visual Heatmaps</span>
+                            <span class="px-2.5 py-1 rounded bg-obsidian">Deterministic SQL Guardrails</span>
+                            <span class="px-2.5 py-1 rounded bg-obsidian">Per-Class Confusion Audits</span>
+                        </div>
                     </div>
 
                     <!-- Pillar 4 -->
@@ -507,8 +545,13 @@
                             Production APIs, Relational SQL & Enterprise Infrastructure
                         </h3>
                         <p class="text-slate-300 text-sm leading-relaxed mb-4">
-                            Every model is engineered for end-users: decoupled <strong class="text-white">FastAPI inference backends</strong>, interactive <strong class="text-white">Streamlit apps</strong>, normalized <strong class="text-white">SQL Server schemas + Power BI dashboards</strong>, backed by hands-on exposure to enterprise IT infrastructure, hardware, and networking operations.
+                            Every model is engineered for end-users: decoupled <strong class="text-white">FastAPI inference backends</strong>, interactive <strong class="text-white">Streamlit decision-support applications</strong>, normalized <strong class="text-white">SQL Server schemas + Power BI dashboards</strong>, backed by hands-on exposure to enterprise IT infrastructure, hardware, and networking operations.
                         </p>
+                        <div class="flex flex-wrap gap-2 pt-2 border-t border-white/10 font-mono text-xs text-amber-300">
+                            <span class="px-2.5 py-1 rounded bg-obsidian">FastAPI + Streamlit Serving</span>
+                            <span class="px-2.5 py-1 rounded bg-obsidian">SQL Server 3NF + Power BI</span>
+                            <span class="px-2.5 py-1 rounded bg-obsidian">Enterprise IT & Networking</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -527,7 +570,7 @@
                     </h2>
                 </div>
                 <p class="text-slate-400 text-sm font-mono">
-                    Cairo, Egypt · Real-Estate AI, Time-Series & Workforce Analytics
+                     Cairo, Egypt · Real-Estate AI, Time-Series & Workforce Analytics
                 </p>
             </div>
 
@@ -548,18 +591,19 @@
                             Aug 2026 – Present
                         </div>
                     </div>
+
                     <ul class="mt-5 space-y-3 text-sm sm:text-base text-slate-300 leading-relaxed">
                         <li class="flex items-start gap-3">
                             <i data-lucide="check-circle-2" class="w-5 h-5 text-crimson shrink-0 mt-1"></i>
-                            <span>Engineered an <strong class="text-white">AI-powered real-estate property intelligence system</strong> combining <strong class="text-cyan">LLMs, Hybrid RAG, SQL, vector search, and deterministic analytics</strong> for natural-language property discovery, comparison, and multi-criteria ranking.</span>
+                            <span>Engineered an <strong class="text-white">AI-powered real-estate property intelligence system</strong> combining <strong class="text-cyan">LLMs, Hybrid RAG, SQL, vector search, and deterministic analytics</strong> for natural-language property discovery, side-by-side comparison, multi-criteria ranking, and market analysis.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <i data-lucide="check-circle-2" class="w-5 h-5 text-crimson shrink-0 mt-1"></i>
-                            <span>Developed a <strong class="text-white">multi-resource time-series forecasting system</strong> for the Egyptian construction market covering <strong class="text-cyan">5 commodities across multiple horizons</strong> through <strong class="text-rose-300">publication-lag-aware data joins</strong>.</span>
+                            <span>Developed a <strong class="text-white">multi-resource time-series forecasting system</strong> for the Egyptian construction market covering <strong class="text-cyan">5 commodities across multiple forecasting horizons</strong>, with a <strong class="text-white">leakage-audited pipeline</strong> integrating market, macroeconomic, and global commodity drivers through <strong class="text-rose-300">publication-lag-aware data joins</strong>.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <i data-lucide="check-circle-2" class="w-5 h-5 text-crimson shrink-0 mt-1"></i>
-                            <span>Benchmarked <strong class="text-white">8 ML/DL model families</strong> using <strong class="text-cyan">walk-forward validation, causality testing, and statistical significance testing</strong>, deploying insights through an interactive <strong class="text-white">Streamlit decision-support application</strong>.</span>
+                            <span>Benchmarked <strong class="text-white">8 ML/DL model families</strong> using <strong class="text-cyan">walk-forward validation, causality testing, baseline comparison, and statistical significance testing</strong>, then built and deployed an interactive <strong class="text-white">Streamlit decision-support application</strong> with additional exposure to enterprise IT infrastructure, hardware, and networking operations.</span>
                         </li>
                     </ul>
                 </div>
@@ -580,14 +624,19 @@
                             Apr 2026 – Jul 2026
                         </div>
                     </div>
+
                     <ul class="mt-5 space-y-3 text-sm sm:text-base text-slate-300 leading-relaxed">
                         <li class="flex items-start gap-3">
                             <i data-lucide="check-circle-2" class="w-5 h-5 text-cyan shrink-0 mt-1"></i>
-                            <span>Applied the <strong class="text-white">end-to-end data science lifecycle</strong>, including ingestion, relational cleaning, EDA, feature engineering, modeling, and production deployment.</span>
+                            <span>Applied the <strong class="text-white">end-to-end data science lifecycle</strong>, including data ingestion, relational cleaning, exploratory data analysis (EDA), feature engineering, machine learning modeling, and production web deployment.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <i data-lucide="check-circle-2" class="w-5 h-5 text-cyan shrink-0 mt-1"></i>
-                            <span>Built and evaluated ML pipelines using <strong class="text-white">Python, Pandas, NumPy, and scikit-learn</strong>, systematically applying <strong class="text-cyan">SMOTE, PCA, StandardScaler, Stratified K-Fold CV, and ROC-AUC</strong> evaluation.</span>
+                            <span>Built and evaluated ML pipelines using <strong class="text-white">Python, Pandas, NumPy, and scikit-learn</strong>, systematically applying <strong class="text-cyan">SMOTE class-imbalance handling, PCA dimensionality reduction, StandardScaler, Stratified K-Fold cross-validation, and ROC-AUC</strong> evaluation.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-cyan shrink-0 mt-1"></i>
+                            <span>Developed interactive <strong class="text-white">Streamlit applications</strong> and translated HR, operations, and workforce datasets into actionable executive business insights.</span>
                         </li>
                     </ul>
                 </div>
@@ -608,7 +657,6 @@
                         </h2>
                     </div>
 
-                    <!-- System Selector Tabs -->
                     <div class="flex flex-wrap gap-2">
                         <button onclick="switchArch('astera')" id="arch-tab-astera" class="arch-tab arch-tab-active px-3.5 py-2.5 rounded-xl font-mono text-xs sm:text-sm border border-white/15 bg-white/5 text-slate-300 transition flex items-center gap-2">
                             <i data-lucide="flame" class="w-4 h-4 text-orange-400"></i>
@@ -633,7 +681,6 @@
                     </div>
                 </div>
 
-                <!-- Inspector Panel -->
                 <div class="glass-card rounded-3xl p-6 sm:p-8 lg:p-10 border border-white/15 shadow-card-glass">
                     <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-6 border-b border-white/10">
                         <div>
@@ -659,17 +706,17 @@
                         <div class="p-4 rounded-2xl bg-obsidian/90 border border-white/10">
                             <div class="text-[11px] font-mono text-rose-400 uppercase tracking-wider mb-1">01 // Core Pillar</div>
                             <div id="arch-pillar-title" class="text-base font-display font-bold text-white">Geospatial Telemetry Fusion</div>
-                            <p id="arch-pillar-desc" class="text-xs text-slate-300 mt-1.5 leading-relaxed">Combines satellite Earth-observation signals and weather indicators.</p>
+                            <p id="arch-pillar-desc" class="text-xs text-slate-300 mt-1.5 leading-relaxed">Combines satellite Earth-observation signals and weather variables.</p>
                         </div>
                         <div class="p-4 rounded-2xl bg-obsidian/90 border border-white/10">
                             <div class="text-[11px] font-mono text-cyan uppercase tracking-wider mb-1">02 // Validation</div>
                             <div id="arch-val-title" class="text-base font-display font-bold text-white">Spatio-Temporal Auditing</div>
-                            <p id="arch-val-desc" class="text-xs text-slate-300 mt-1.5 leading-relaxed">Evaluates fire ignition and spread dynamics safely.</p>
+                            <p id="arch-val-desc" class="text-xs text-slate-300 mt-1.5 leading-relaxed">Evaluates fire ignition and spread dynamics.</p>
                         </div>
                         <div class="p-4 rounded-2xl bg-obsidian/90 border border-white/10">
                             <div class="text-[11px] font-mono text-emerald-400 uppercase tracking-wider mb-1">03 // Explainability</div>
-                            <div id="arch-xai-title" class="text-base font-display font-bold text-white">Actionable Zoning Maps</div>
-                            <p id="arch-xai-desc" class="text-xs text-slate-300 mt-1.5 leading-relaxed">Translates predictions into severity zones.</p>
+                            <div id="arch-xai-title" class="text-base font-display font-bold text-white">Actionable Risk Zoning</div>
+                            <p id="arch-xai-desc" class="text-xs text-slate-300 mt-1.5 leading-relaxed">Translates predictions into clear severity zones.</p>
                         </div>
                         <div class="p-4 rounded-2xl bg-obsidian/90 border border-white/10">
                             <div class="text-[11px] font-mono text-amber-300 uppercase tracking-wider mb-1">04 // Production</div>
@@ -1020,8 +1067,10 @@
                     <div class="flex flex-wrap gap-2.5 text-xs font-mono">
                         <span class="px-3.5 py-1.5 rounded-lg bg-obsidian border border-indigo-400/35 text-indigo-300">Enterprise IT Infrastructure</span>
                         <span class="px-3.5 py-1.5 rounded-lg bg-obsidian border border-white/15 text-slate-200">Hardware & Networking Operations</span>
-                        <span class="px-3.5 py-1.5 rounded-lg bg-obsidian border border-white/15 text-slate-200">Technical Support Workflows</span>
-                        <span class="px-3.5 py-1.5 rounded-lg bg-obsidian border border-cyan/40 text-cyan">Arabic (Native) · English (B2) · German (A2)</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-obsidian border border-white/15 text-slate-200">Technical Support Workflows</span>
+                        <span class="px-3.5 py-1.5 rounded-lg bg-obsidian border border-emerald-500/40 text-emerald-300">Arabic: Native</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-obsidian border border-cyan/40 text-cyan">English: B2 (Upper-Intermediate Professional)</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-obsidian border border-amber-400/40 text-amber-300">German: A2</span>
                     </div>
                 </div>
             </div>
@@ -1268,108 +1317,108 @@
         // 4. Architecture Inspector Data
         const architectureData = {
             astera: {
-                badge: "GEOSPATIAL & ENVIRONMENTAL AI",
-                domain: "// Multi-Source Telemetry & Risk Zoning",
+                badge: "GEOSPATIAL & ENVIRONMENTAL AI · EARLY-WARNING SYSTEM",
+                domain: "// Multi-Source Telemetry, Risk Zoning & Spread Modeling",
                 title: "ASTERA — Wildfire Intelligence & Early-Warning Platform",
                 github: "https://github.com/FatmaBadawy23/astera-wildfire-platform",
                 pillarTitle: "Geospatial Telemetry Fusion",
-                pillarDesc: "Integrates satellite Earth-observation signals and weather variables into a unified risk engine.",
-                valTitle: "Spatio-Temporal Auditing",
-                valDesc: "Audits anomaly detection across diverse climates.",
-                xaiTitle: "Actionable Risk Zoning",
-                xaiDesc: "Translates predictions into clear hazard zones.",
-                prodTitle: "Real-Time Command App",
-                prodDesc: "Full-stack web dashboard for emergency response coordination.",
-                stackSummary: "Geospatial AI · Satellite Telemetry · Web Platform",
+                pillarDesc: "Integrates satellite Earth-observation signals, meteorological variables, and vegetation/terrain indicators into a unified wildfire risk engine.",
+                valTitle: "Spatio-Temporal Risk Auditing",
+                valDesc: "Audits environmental anomaly detection across diverse climate and terrain conditions to minimize false alarms during high-risk seasons.",
+                xaiTitle: "Actionable Risk Zoning Maps",
+                xaiDesc: "Translates multi-variable predictions into clear spatial hazard zones and interpretable environmental driver breakdowns.",
+                prodTitle: "Real-Time Command Platform",
+                prodDesc: "Interactive web platform engineered for rapid situational awareness, early-warning alerts, and wildfire response coordination.",
+                stackSummary: "Geospatial AI · Satellite Telemetry · Environmental Modeling · Full-Stack Web Platform",
                 stages: [
-                    { step: "STAGE 01", name: "Telemetry Ingestion", desc: "Satellite hotspots & weather feeds" },
-                    { step: "STAGE 02", name: "Geospatial Fusion", desc: "Spatial alignment & feature engineering" },
-                    { step: "STAGE 03", name: "Risk Engine", desc: "Susceptibility & progression modeling" },
-                    { step: "STAGE 04", name: "Command UI", desc: "Interactive hazard maps & alerts" }
+                    { step: "STAGE 01", name: "Telemetry Ingestion", desc: "Satellite thermal hotspots, weather feeds & terrain indices" },
+                    { step: "STAGE 02", name: "Geospatial Fusion", desc: "Spatial alignment & environmental feature engineering" },
+                    { step: "STAGE 03", name: "Wildfire Risk Engine", desc: "Ignition susceptibility & progression modeling" },
+                    { step: "STAGE 04", name: "Command Dashboard", desc: "Interactive hazard maps & early-warning alerts" }
                 ]
             },
             nutri: {
-                badge: "TRANSFER LEARNING · GRAD-CAM XAI",
-                domain: "// ResNet50 Fine-Tuning + Spatial Heatmaps",
+                badge: "TRANSFER LEARNING · GRAD-CAM EXPLAINABILITY (XAI)",
+                domain: "// ResNet50 Fine-Tuning + Spatial Attention Heatmaps",
                 title: "NutriVision — Explainable Food Recognition & Nutrition Coach",
                 github: "https://github.com/nouralaa311/NutriVision",
-                pillarTitle: "ResNet50 Progression",
-                pillarDesc: "Fine-tuned ResNet50 across 101 complex dish classes.",
-                valTitle: "Confusion Matrix Audits",
-                valDesc: "Evaluated with full 101x101 confusion matrices.",
-                xaiTitle: "Grad-CAM Heatmaps",
-                xaiDesc: "Proves convolutional attention over food textures.",
-                prodTitle: "FastAPI + Streamlit",
-                prodDesc: "Asynchronous REST backend with interactive coaching UI.",
-                stackSummary: "Python · PyTorch · ResNet50 · Grad-CAM · FastAPI",
+                pillarTitle: "Documented ResNet50 Progression",
+                pillarDesc: "Fine-tuned ResNet50 across 101 complex dish categories using progressive layer unfreezing, custom augmentation, and regularized classification heads.",
+                valTitle: "Per-Class & Confusion Matrix Audits",
+                valDesc: "Evaluated beyond aggregate metrics via full 101×101 confusion matrices and per-class error diagnostics to resolve visually similar dishes.",
+                xaiTitle: "Grad-CAM Visual Heatmaps",
+                xaiDesc: "Generates Gradient-weighted Class Activation Maps proving the convolutional backbone attends to actual food textures rather than plate backgrounds.",
+                prodTitle: "Decoupled FastAPI + Streamlit",
+                prodDesc: "Serves model weights via asynchronous FastAPI REST endpoints connected to an interactive Streamlit nutrition & allergen coaching UI.",
+                stackSummary: "Python · PyTorch · torchvision (ResNet50) · Grad-CAM · FastAPI · Streamlit",
                 stages: [
-                    { step: "STAGE 01", name: "Food-101 Pipeline", desc: "~100K images & progressive unfreezing" },
-                    { step: "STAGE 02", name: "Grad-CAM XAI", desc: "Activation heatmaps & error audits" },
-                    { step: "STAGE 03", name: "Nutrition Engine", desc: "Macro breakdown & allergen flags" },
-                    { step: "STAGE 04", name: "FastAPI + Streamlit", desc: "REST inference & web app" }
+                    { step: "STAGE 01", name: "Food-101 Pipeline", desc: " ~100K images, augmentation & progressive ResNet50 fine-tuning" },
+                    { step: "STAGE 02", name: "Grad-CAM Explainability", desc: "Convolutional activation heatmaps & per-class error audits" },
+                    { step: "STAGE 03", name: "Nutrition & Allergen Engine", desc: "Macro decomposition, dietary goal matching & allergen flags" },
+                    { step: "STAGE 04", name: "FastAPI + Streamlit", desc: "REST inference service & interactive coaching application" }
                 ]
             },
             bee: {
-                badge: "TOP 10 FACULTY PROJECT",
-                domain: "// YOLOv8n vs. YOLO11m Benchmark",
+                badge: "🏆 TOP 10 FACULTY PROJECT · MINISTERIAL SHOWCASE",
+                domain: "// YOLOv8n vs. YOLO11m Architectural Trade-Off Benchmark",
                 title: "BeeSight AI — Non-Invasive Queen Bee Detection System",
                 github: "https://github.com/nouralaa311/Bee_-Detection-_system",
-                pillarTitle: "Dual-YOLO Benchmark",
-                pillarDesc: "Compared lightweight YOLOv8n against YOLO11m.",
-                valTitle: "Dense Occlusion Testing",
-                valDesc: "Validated bounding-box stability in crowded hives.",
-                xaiTitle: "Confidence Overlay",
-                xaiDesc: "Real-time localization overlays for beekeepers.",
-                prodTitle: "FastAPI + Streamlit Video",
-                prodDesc: "Supports static images and hive video stream uploads.",
-                stackSummary: "Python · YOLOv8n · YOLO11m · OpenCV · FastAPI",
+                pillarTitle: "YOLOv8n vs. YOLO11m Benchmarking",
+                pillarDesc: "Systematically compared lightweight YOLOv8n (edge speed) against deeper YOLO11m feature extraction for crowded, occluded hive frames.",
+                valTitle: "Dense Occlusion & Video Testing",
+                valDesc: "Validated bounding-box stability across high-density bee clusters and continuous hive video streams to support non-invasive inspection.",
+                xaiTitle: "Visual Confidence & Track Overlay",
+                xaiDesc: "Renders real-time bounding boxes and frame-by-frame localization overlays so beekeepers can immediately verify queen presence.",
+                prodTitle: "FastAPI + Streamlit Video Pipeline",
+                prodDesc: "Supports both static frame inspection and full hive video uploads—selected among the Top 10 Faculty Projects & presented to the Minister of Higher Education.",
+                stackSummary: "Python · YOLOv8n · YOLO11m · Roboflow · OpenCV · FastAPI · Streamlit",
                 stages: [
-                    { step: "STAGE 01", name: "Roboflow Curation", desc: "Annotated hive frame dataset" },
-                    { step: "STAGE 02", name: "YOLO Benchmarking", desc: "Speed vs feature extraction study" },
-                    { step: "STAGE 03", name: "Video Pipeline", desc: "OpenCV frame-by-frame processing" },
-                    { step: "STAGE 04", name: "Streamlit UI", desc: "Apiary inspection web tool" }
+                    { step: "STAGE 01", name: "Roboflow Curation", desc: "Annotated queen vs. worker bee dataset in crowded hive frames" },
+                    { step: "STAGE 02", name: "Dual-YOLO Benchmark", desc: "Architectural trade-off study: YOLOv8n vs. YOLO11m" },
+                    { step: "STAGE 03", name: "Video Stream Engine", desc: "Frame-by-frame OpenCV video upload & detection pipeline" },
+                    { step: "STAGE 04", name: "FastAPI + Streamlit UI", desc: "Real-time apiary inspection web application" }
                 ]
             },
             redcon: {
-                badge: "MULTI-HORIZON TIME-SERIES",
-                domain: "// 8 ML/DL Model Families",
-                title: "RedCon — Construction Material Price Forecasting",
+                badge: "MULTI-HORIZON TIME-SERIES · ZERO DATA LEAKAGE",
+                domain: "// 5 Construction Commodities × 8 ML/DL Model Families",
+                title: "RedCon — Multi-Resource Construction Material Price Forecasting",
                 github: "https://github.com/nouralaa311?tab=repositories",
-                pillarTitle: "Lag-Aware Joins",
-                pillarDesc: "Strict publication-lag alignment to eliminate leakage.",
-                valTitle: "Walk-Forward Validation",
-                valDesc: "Rolling temporal backtesting across 8 model families.",
-                xaiTitle: "Driver Attribution",
-                xaiDesc: "Audited against naive baselines for true lift.",
-                prodTitle: "Streamlit App",
-                prodDesc: "Procurement decision-support interface.",
-                stackSummary: "Python · PyTorch GRU · XGBoost · LightGBM",
+                pillarTitle: "Publication-Lag-Aware Joins",
+                pillarDesc: "Integrates domestic market, macroeconomic, and global commodity drivers using strict publication-lag alignment to eliminate look-ahead bias.",
+                valTitle: "Walk-Forward & Statistical Audits",
+                valDesc: "Benchmarked 8 ML/DL families (XGBoost, LightGBM, CatBoost, PyTorch GRU) via rolling walk-forward validation, causality tests, and significance checks.",
+                xaiTitle: "Naive-Baseline & Driver Attribution",
+                valDesc: "Every forecast horizon is audited against naive baselines and directional accuracy checks to prove genuine predictive lift.",
+                prodTitle: "Executive Decision-Support App",
+                prodDesc: "Deployed via an interactive Streamlit application enabling procurement teams to compare multi-horizon commodity trajectories.",
+                stackSummary: "Python · PyTorch GRU · XGBoost · LightGBM · CatBoost · Walk-Forward · Streamlit",
                 stages: [
-                    { step: "STAGE 01", name: "Lag-Audited Joins", desc: "Macroeconomic timestamp alignment" },
-                    { step: "STAGE 02", name: "Feature Engineering", desc: "Temporal lags & volatility screening" },
-                    { step: "STAGE 03", name: "Walk-Forward CV", desc: "8-family model backtesting" },
-                    { step: "STAGE 04", name: "Streamlit App", desc: "Procurement forecasting interface" }
+                    { step: "STAGE 01", name: "Lag-Audited Data Joins", desc: "5 commodities aligned with macroeconomic publication lags" },
+                    { step: "STAGE 02", name: "Causality & Feature Eng.", desc: "Temporal lags, rolling volatility & causality screening" },
+                    { step: "STAGE 03", name: "8-Family Walk-Forward", desc: "XGBoost, LightGBM, CatBoost & PyTorch GRU backtesting" },
+                    { step: "STAGE 04", name: "Streamlit Decision App", desc: "Multi-horizon procurement forecasting interface" }
                 ]
             },
             hr: {
-                badge: "RELATIONAL SQL (3NF) + ML",
-                domain: "// 5 SQL Server Tables + SMOTE + PCA",
+                badge: "RELATIONAL SQL (3NF) · IMBALANCED ML PIPELINE",
+                domain: "// 5 SQL Server Tables + SMOTE + PCA + Power BI + Streamlit",
                 title: "End-to-End HR Analytics & Employee Promotion Platform",
                 github: "https://github.com/nouralaa311/End-to-End-HR-Analytics-Platform-",
-                pillarTitle: "SQL Normalization",
-                pillarDesc: "Transformed flat HR records into 5 relational tables.",
-                valTitle: "Leak-Free CV",
-                valDesc: "SMOTE and PCA encapsulated inside K-Fold CV.",
-                xaiTitle: "Power BI Dashboards",
-                xaiDesc: "Executive visual KPIs and feature diagnostics.",
-                prodTitle: "Streamlit App",
-                prodDesc: "Real-time promotion inference tool.",
-                stackSummary: "Python · SQL Server · scikit-learn · Power BI",
+                pillarTitle: "Relational SQL Normalization (3NF)",
+                pillarDesc: "Transformed raw flat HR records into 5 normalized SQL Server tables enforcing referential integrity and clean analytical joins.",
+                valTitle: "Leak-Free Stratified K-Fold CV",
+                valDesc: "Encapsulated SMOTE oversampling, PCA dimensionality reduction, and StandardScaler inside cross-validation folds to prevent synthetic leakage.",
+                xaiTitle: "Executive BI + Feature Diagnostics",
+                xaiDesc: "Created 10+ Plotly visual diagnostics and an interactive Power BI dashboard uncovering promotion drivers across departments.",
+                prodTitle: "Live Streamlit Promotion Engine",
+                prodDesc: "Deployed a real-time Streamlit web application for interactive employee promotion readiness evaluation.",
+                stackSummary: "Python · SQL Server · scikit-learn · SMOTE · PCA · Power BI · Streamlit",
                 stages: [
-                    { step: "STAGE 01", name: "SQL Server 3NF", desc: "Relational database normalization" },
-                    { step: "STAGE 02", name: "SMOTE + PCA", desc: "Imbalance handling inside CV folds" },
-                    { step: "STAGE 03", name: "Power BI EDA", desc: "Executive KPI dashboards" },
-                    { step: "STAGE 04", name: "Streamlit Tool", desc: "Real-time promotion prediction" }
+                    { step: "STAGE 01", name: "SQL Server 3NF Schema", desc: "Normalized workforce data into 5 relational tables" },
+                    { step: "STAGE 02", name: "SMOTE + PCA Pipeline", desc: "Imbalance handling & feature scaling inside 5-fold CV" },
+                    { step: "STAGE 03", name: "Power BI & Plotly EDA", desc: "10+ executive visual analytics & KPI dashboards" },
+                    { step: "STAGE 04", name: "Streamlit Inference App", desc: "Real-time employee promotion prediction web tool" }
                 ]
             }
         };
@@ -1377,13 +1426,16 @@
         function switchArch(key) {
             const d = architectureData[key];
             if (!d) return;
+
             document.querySelectorAll('.arch-tab').forEach(btn => btn.classList.remove('arch-tab-active'));
-            document.getElementById('arch-tab-' + key).classList.add('arch-tab-active');
+            const activeBtn = document.getElementById('arch-tab-' + key);
+            if (activeBtn) activeBtn.classList.add('arch-tab-active');
 
             document.getElementById('arch-badge').textContent = d.badge;
             document.getElementById('arch-domain').textContent = d.domain;
             document.getElementById('arch-title').textContent = d.title;
             document.getElementById('arch-github-link').href = d.github;
+
             document.getElementById('arch-pillar-title').textContent = d.pillarTitle;
             document.getElementById('arch-pillar-desc').textContent = d.pillarDesc;
             document.getElementById('arch-val-title').textContent = d.valTitle;
@@ -1394,7 +1446,8 @@
             document.getElementById('arch-prod-desc').textContent = d.prodDesc;
             document.getElementById('arch-stack-summary').textContent = d.stackSummary;
 
-            document.getElementById('arch-pipeline-stages').innerHTML = d.stages.map(s => `
+            const stagesContainer = document.getElementById('arch-pipeline-stages');
+            stagesContainer.innerHTML = d.stages.map(s => `
                 <div class="p-3.5 rounded-xl bg-charcoal/90 border border-white/10">
                     <div class="text-[10px] font-mono text-cyan">${s.step}</div>
                     <div class="text-xs sm:text-sm font-display font-bold text-white mt-0.5">${s.name}</div>
@@ -1402,37 +1455,79 @@
                 </div>
             `).join('');
         }
+
         switchArch('astera');
 
-        // 5. Project & Skill Filters
+        // 5. Filter Featured Case Study Projects
         function filterProjects(category) {
             document.querySelectorAll('.proj-filter').forEach(btn => {
                 btn.className = "proj-filter px-4 py-2 rounded-xl font-mono text-xs sm:text-sm bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10 transition";
             });
-            document.getElementById('filter-' + category).className = "proj-filter px-4 py-2 rounded-xl font-mono text-xs sm:text-sm bg-crimson text-white shadow-crimson-glow transition";
+            const activeBtn = document.getElementById('filter-' + category);
+            if (activeBtn) {
+                activeBtn.className = "proj-filter px-4 py-2 rounded-xl font-mono text-xs sm:text-sm bg-crimson text-white shadow-crimson-glow transition";
+            }
+
             document.querySelectorAll('.project-card').forEach(card => {
-                card.classList.toggle('hidden', category !== 'all' && card.dataset.category !== category);
+                if (category === 'all' || card.dataset.category === category) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
             });
         }
 
+        // 6. Filter Technical Skills Matrix by Category
         function filterSkills(group) {
             document.querySelectorAll('.skill-tab').forEach(btn => {
                 btn.className = "skill-tab px-3.5 py-2 rounded-xl font-mono text-xs sm:text-sm bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10 transition";
             });
-            document.getElementById('skill-tab-' + group).className = "skill-tab px-4 py-2 rounded-xl font-mono text-xs sm:text-sm bg-crimson text-white shadow-crimson-glow transition";
+            const activeTab = document.getElementById('skill-tab-' + group);
+            if (activeTab) {
+                activeTab.className = "skill-tab px-4 py-2 rounded-xl font-mono text-xs sm:text-sm bg-crimson text-white shadow-crimson-glow transition";
+            }
+
             document.querySelectorAll('.skill-group-card').forEach(card => {
-                card.classList.toggle('hidden', group !== 'all' && card.dataset.skillGroup !== group);
+                if (group === 'all' || card.dataset.skillGroup === group) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
             });
         }
 
-        // 6. Modals
+        // 7. Deep-Dive Architecture & CV Modal Inspector
         const modalSpecs = {
-            astera: { tag: "GEOSPATIAL AI", title: "ASTERA — Wildfire Platform", body: "<p>Fuses satellite Earth observation data, weather feeds, and vegetation indices into an early-warning wildfire hazard zoning platform.</p>" },
-            nutri: { tag: "COMPUTER VISION", title: "NutriVision — Explainable Food Recognition", body: "<p>Fine-tuned ResNet50 on Food-101 with Grad-CAM spatial heatmaps, automatic nutrition breakdown, and allergen flags served via FastAPI.</p>" },
-            bee: { tag: "COMPUTER VISION", title: "BeeSight AI — Queen Bee Detection", body: "<p>Benchmarked YOLOv8n vs YOLO11m for non-invasive hive inspection. Top 10 Faculty project presented to Egypt's Minister of Higher Education.</p>" },
-            redcon: { tag: "TIME-SERIES", title: "RedCon — Material Price Forecasting", body: "<p>Leakage-audited forecasting framework covering 5 commodities across multiple horizons using 8 ML/DL model families with walk-forward validation.</p>" },
-            hr: { tag: "RELATIONAL SQL + ML", title: "End-to-End HR Analytics Platform", body: "<p>Normalized raw workforce records into 5 relational SQL tables with SMOTE, PCA, and Stratified CV, accompanied by Power BI dashboards.</p>" },
-            cv_summary: { tag: "EXECUTIVE CV PROFILE", title: "Nour Alaa El-Din — Professional Summary", body: "<p>Data Scientist & AI Engineer based in Cairo, Egypt. Student at Helwan National University & Data Scientist Intern at Redcon Properties.</p>" }
+            astera: {
+                tag: "GEOSPATIAL & WILDFIRE INTELLIGENCE PLATFORM",
+                title: "ASTERA — Wildfire Monitoring & Early-Warning System",
+                body: `<p><strong class="text-white">System Vision:</strong> ASTERA is an AI-driven wildfire monitoring and environmental intelligence platform designed to bridge satellite Earth-observation data, meteorological telemetry, and predictive risk modeling.</p>`
+            },
+            nutri: {
+                tag: "EXPLAINABLE COMPUTER VISION · FASTAPI + STREAMLIT",
+                title: "NutriVision — Explainable Food Recognition & Nutrition Coach",
+                body: `<p><strong class="text-white">Engineering Overview:</strong> End-to-end visual dietary intelligence system trained on Food-101 (~100,000 images across 101 dish classes) using a documented ResNet50 transfer learning progression.</p>`
+            },
+            bee: {
+                tag: "TOP 10 FACULTY PROJECT · MINISTERIAL SHOWCASE",
+                title: "BeeSight AI — Queen Bee Detection System",
+                body: `<p><strong class="text-white">Engineering Overview:</strong> Real-time computer-vision system for detecting queen bees in crowded hive footage to enable faster, non-invasive apiary inspection.</p>`
+            },
+            redcon: {
+                tag: "LEAKAGE-AUDITED MULTI-HORIZON FORECASTING",
+                title: "RedCon — Construction Material Price Forecasting Framework",
+                body: `<p><strong class="text-white">Engineering Overview:</strong> Multi-resource time-series forecasting system covering 5 construction commodities across multiple horizons for the Egyptian market.</p>`
+            },
+            hr: {
+                tag: "RELATIONAL SQL SERVER (3NF) + IMBALANCED ML",
+                title: "End-to-End HR Analytics & Workforce Promotion Platform",
+                body: `<p><strong class="text-white">Engineering Overview:</strong> Full-lifecycle workforce analytics and promotion prediction platform combining relational database normalization, machine learning, and executive BI.</p>`
+            },
+            cv_summary: {
+                tag: "VERIFIED CURRICULUM VITAE SUMMARY",
+                title: "Nour Alaa El-Din — Executive Engineering Profile",
+                body: `<p><strong class="text-white">Role:</strong> Data Scientist | Machine Learning Engineer | AI Engineer (Cairo, Egypt)</p>`
+            }
         };
 
         function openModal(key) {
@@ -1445,49 +1540,63 @@
             modal.classList.remove('hidden');
             modal.classList.add('flex');
         }
+
         function closeModal() {
             const modal = document.getElementById('arch-modal');
             modal.classList.add('hidden');
             modal.classList.remove('flex');
         }
 
-        // 7. GitHub Repos Fetcher
+        // 8. Live GitHub Repository Explorer
+        const pinnedAsteraRepo = {
+            name: "astera-wildfire-platform",
+            full_name: "FatmaBadawy23/astera-wildfire-platform",
+            description: "ASTERA — AI Wildfire Intelligence, Geospatial Telemetry & Early-Warning Monitoring Platform combining environmental indicators, satellite data, and predictive risk zoning.",
+            html_url: "https://github.com/FatmaBadawy23/astera-wildfire-platform",
+            language: "Geospatial AI / Python / Web",
+            is_collab: true
+        };
+
         const fallbackRepos = [
-            { name: "astera-wildfire-platform", full_name: "FatmaBadawy23/astera-wildfire-platform", description: "ASTERA — AI Wildfire Intelligence & Early-Warning Monitoring Platform.", html_url: "https://github.com/FatmaBadawy23/astera-wildfire-platform", language: "Geospatial AI", is_collab: true },
-            { name: "NutriVision", full_name: "nouralaa311/NutriVision", description: "NutriVision — Explainable AI Food Recognition & Nutrition Coach (ResNet50 + Grad-CAM).", html_url: "https://github.com/nouralaa311/NutriVision", language: "Python / PyTorch" },
-            { name: "Bee_-Detection-_system", full_name: "nouralaa311/Bee_-Detection-_system", description: "BeeSight AI — Queen Bee Detection System (YOLOv8n vs YOLO11m).", html_url: "https://github.com/nouralaa311/Bee_-Detection-_system", language: "YOLOv8-11" },
+            pinnedAsteraRepo,
+            { name: "NutriVision", full_name: "nouralaa311/NutriVision", description: "NutriVision — Explainable AI Food Recognition & Nutrition Coach using fine-tuned ResNet50.", html_url: "https://github.com/nouralaa311/NutriVision", language: "Python / PyTorch" },
+            { name: "Bee_-Detection-_system", full_name: "nouralaa311/Bee_-Detection-_system", description: "BeeSight AI — Queen Bee Detection System (Top 10 Faculty Project).", html_url: "https://github.com/nouralaa311/Bee_-Detection-_system", language: "YOLOv8-11" },
             { name: "End-to-End-HR-Analytics-Platform-", full_name: "nouralaa311/End-to-End-HR-Analytics-Platform-", description: "End-to-End HR Analytics & Employee Promotion Platform (SQL 3NF + SMOTE).", html_url: "https://github.com/nouralaa311/End-to-End-HR-Analytics-Platform-", language: "Python / SQL" },
             { name: "My-portfolio", full_name: "nouralaa311/My-portfolio", description: "NOUR.AI — Flagship AI & Data Science Engineering Portfolio web application.", html_url: "https://github.com/nouralaa311/My-portfolio", language: "HTML / Tailwind" }
         ];
 
+        let allLoadedRepos = [...fallbackRepos];
+
         function renderRepoCards(repos) {
             const container = document.getElementById('github-repos-container');
-            container.innerHTML = repos.map(r => `
-                <div class="glass-card p-5 rounded-2xl border ${r.is_collab ? 'border-orange-400/40' : 'border-white/10'} flex flex-col justify-between">
+            if (!container) return;
+            container.innerHTML = repos.map(repo => `
+                <div class="glass-card p-5 rounded-2xl border ${repo.is_collab ? 'border-orange-400/40' : 'border-white/10'} flex flex-col justify-between group">
                     <div>
                         <div class="flex items-center justify-between gap-2 mb-3">
-                            <a href="${r.html_url}" target="_blank" class="font-mono font-bold text-sm text-white hover:text-crimson truncate">${r.name}</a>
-                            <span class="px-2 py-0.5 rounded bg-white/5 font-mono text-[10px] text-slate-400">${r.is_collab ? '🛰️ Collab' : '@nouralaa311'}</span>
+                            <a href="${repo.html_url}" target="_blank" rel="noopener noreferrer" class="font-mono font-bold text-sm text-white group-hover:text-crimson transition truncate">${repo.name}</a>
+                            <span class="px-2 py-0.5 rounded bg-white/5 font-mono text-[10px] text-slate-400">${repo.is_collab ? '🛰️ Collab' : '@nouralaa311'}</span>
                         </div>
-                        <p class="text-xs text-slate-300 line-clamp-3">${r.description}</p>
+                        <p class="text-xs text-slate-300 line-clamp-3">${repo.description || 'AI & Machine Learning repository.'}</p>
                     </div>
                     <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-xs font-mono">
-                        <span class="text-cyan">${r.language}</span>
-                        <a href="${r.html_url}" target="_blank" class="text-slate-200 hover:text-crimson flex items-center gap-1"><span>Open</span> ↗</a>
+                        <span class="text-cyan">${repo.language || 'Python'}</span>
+                        <a href="${repo.html_url}" target="_blank" rel="noopener noreferrer" class="text-slate-200 hover:text-crimson flex items-center gap-1"><span>Open</span> ↗</a>
                     </div>
                 </div>
             `).join('');
             lucide.createIcons();
         }
-        renderRepoCards(fallbackRepos);
 
         function filterGitHubRepos() {
             const q = document.getElementById('repo-search-input').value.toLowerCase().trim();
-            const filtered = fallbackRepos.filter(r => r.name.toLowerCase().includes(q) || r.description.toLowerCase().includes(q));
+            const filtered = allLoadedRepos.filter(r => r.name.toLowerCase().includes(q) || r.description.toLowerCase().includes(q));
             renderRepoCards(filtered);
         }
 
-        // 8. Contact Form Dispatch
+        renderRepoCards(allLoadedRepos);
+
+        // 9. Quick Mailto Dispatch
         function handleQuickMessage(e) {
             e.preventDefault();
             const sender = document.getElementById('sender-name').value.trim();
@@ -1496,7 +1605,7 @@
             showToast('Opening email client...');
         }
 
-        // 9. Neural Canvas Animation
+        // 10. Neural Canvas Animation
         const canvas = document.getElementById('neural-canvas');
         const ctx = canvas.getContext('2d');
         let particles = [];
